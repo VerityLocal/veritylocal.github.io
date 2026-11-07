@@ -1,0 +1,25 @@
+{
+  "version": "v0.2.0-dev.1",
+  "prerelease": true,
+  "signed": false,
+  "assets": {
+    "extension": {
+      "filename": "Verity-Extension.zip",
+      "bytes": 16377,
+      "sha256": "4868d0eef019c572c3b93da1c81c48d49c80bec6b473d853ab08315b6dea5c0b",
+      "url": "https://github.com/VerityLocal/Main/releases/download/v0.2.0-dev.1/Verity-Extension.zip"
+    },
+    "macos": {
+      "filename": "Verity-macOS.zip",
+      "bytes": 101772,
+      "sha256": "e46b6dd7a4bf23040c98748188c579f3762d31c0237382f68b2a9e41a269bfd2",
+      "url": "https://github.com/VerityLocal/Main/releases/download/v0.2.0-dev.1/Verity-macOS.zip"
+    },
+    "windows": {
+      "filename": "Verity-Windows.zip",
+      "bytes": 3290967,
+      "sha256": "aea576841ab9fa272e58f80b1c60e38ccee900d035963e1e436d838652dd99dc",
+      "url": "https://github.com/VerityLocal/Main/releases/download/v0.2.0-dev.1/Verity-Windows.zip"
+    }
+  }
+}

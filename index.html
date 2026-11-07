@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Verity is a PDF-first browser extension with a local desktop companion. Download unsigned development builds for macOS and Windows and review their limitations.">
+  <meta name="color-scheme" content="light">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Verity — Local document review for macOS & Windows</title>
+  <link rel="canonical" href="https://veritylocal.github.io/">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="./" aria-label="Verity home"><img src="icon.svg" width="36" height="36" alt=""><span>Verity<span class="brand-caption">LOCAL DOCUMENT REVIEW</span></span></a>
+    <nav aria-label="Main navigation">
+      <a href="#how-it-works">How it works</a>
+      <a href="https://github.com/VerityLocal/Main">Source <span aria-hidden="true">↗</span></a>
+      <a class="nav-download" href="#downloads">Downloads</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> YOUR DOCUMENT. YOUR CONTROL.</p>
+        <h1 id="hero-title">Read the document.<br><span>Review the evidence.</span></h1>
+        <p class="hero-description">A PDF-first browser extension with a local desktop companion. Explore source overlap, inspect the highlights, and take the evidence with you.</p>
+        <div class="hero-actions"><a class="button primary" href="#downloads">Get Verity <span aria-hidden="true">↓</span></a><a class="text-link" href="#how-it-works">Meet your workflow <span aria-hidden="true">→</span></a></div>
+        <p class="hero-note">Chrome & Edge · macOS & Windows · Development preview</p>
+      </div>
+      <div class="document-preview" aria-label="Illustrative document review, not a detector result">
+        <div class="preview-top"><span class="document-icon" aria-hidden="true">▤</span><div><strong>Document review</strong><span>Illustrative preview</span></div><span class="local-pill">Local companion</span></div>
+        <div class="preview-body">
+          <p class="preview-label">ACTIVE PDF</p><h2>Your research, in context.</h2>
+          <p>Read the passage. <mark>Inspect potential source overlap</mark> alongside its attributed reference. Missing evidence is never counted as originality.</p>
+          <div class="evidence-row"><span class="amber-dot" aria-hidden="true"></span><div><strong>Source overlap</strong><span>Highlights, references & search coverage</span></div></div>
+          <div class="evidence-row"><span class="purple-dot" aria-hidden="true"></span><div><strong>AI estimate: Unavailable</strong><span>Independent calibration still required</span></div></div>
+        </div>
+        <div class="preview-bottom"><span>Evidence, not a verdict.</span><span>JSON / text export <span aria-hidden="true">↗</span></span></div>
+      </div>
+    </section>
+
+    <div class="principles wrap" aria-label="Product principles"><span><span aria-hidden="true">◎</span> Authorship inference stays local</span><span><span aria-hidden="true">◇</span> Web comparison only with consent</span><span><span aria-hidden="true">↗</span> Inspectable evidence & export</span></div>
+
+    <section class="download-section wrap" id="downloads" aria-labelledby="download-title">
+      <div class="section-heading"><div><p class="eyebrow">A COMPANION FOR YOUR DESKTOP</p><h2 id="download-title">Choose your platform.</h2></div><span class="version-pill">v0.2.0-dev.1 · Prerelease</span></div>
+      <aside class="release-warning" aria-labelledby="warning-title">
+        <span class="warning-symbol" aria-hidden="true">!</span><div><h3 id="warning-title">Development downloads — not production-ready</h3><p>Both installers are <strong>unsigned</strong>. Your operating system may warn or block installation. <strong>Do not disable OS security.</strong> Signed installers are not yet available. Windows installation and browser integration, and Intel macOS execution, are not yet tested.</p></div>
+      </aside>
+      <article class="extension-card" aria-labelledby="extension-title">
+        <div><p class="eyebrow">ONE EXTENSION. BOTH PLATFORMS.</p><h3 id="extension-title">Download the browser extension</h3><p>The same Chrome/Edge ZIP for macOS and Windows. <strong>Requires the matching desktop companion</strong> for PDF extraction and analysis. Companion installers below already include the extension; download it separately to load or update it directly.</p></div>
+        <div class="extension-action"><a class="button primary download-button" href="https://github.com/VerityLocal/Main/releases/download/v0.2.0-dev.1/Verity-Extension.zip" aria-describedby="extension-requirement">Download extension ZIP <span aria-hidden="true">↓</span></a><p class="download-meta">Chrome & Edge · <span data-size="extension">Size in release details</span></p><p id="extension-requirement" class="extension-requirement">Companion required · Unpacked development extension</p></div>
+      </article>
+      <div class="platform-grid">
+        <article class="platform-card" aria-labelledby="mac-title">
+          <div class="platform-top"><span class="platform-symbol" aria-hidden="true">⌘</span><span class="small-pill">DEVELOPMENT BUILD</span></div>
+          <h3 id="mac-title">Verity for macOS</h3><p class="platform-requirements">macOS 14+ · Apple Silicon & Intel</p>
+          <p class="platform-description">The local companion, packaged as a desktop app. Extract the ZIP and open <strong>Verity Installer.app</strong> if macOS permits it.</p>
+          <a class="button primary download-button" href="https://github.com/VerityLocal/Main/releases/download/v0.2.0-dev.1/Verity-macOS.zip" aria-describedby="mac-status">Download macOS ZIP <span aria-hidden="true">↓</span></a>
+          <p class="download-meta">ZIP · <span data-size="macos">Size in release details</span> · Unsigned</p>
+          <p id="mac-status" class="platform-status">Apple Silicon sandbox/native messaging checked. Intel execution and everyday browser flows remain acceptance gates.</p>
+        </article>
+        <article class="platform-card" aria-labelledby="windows-title">
+          <div class="platform-top"><span class="windows-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="small-pill">DEVELOPMENT BUILD</span></div>
+          <h3 id="windows-title">Verity for Windows</h3><p class="platform-requirements">Windows 10 / 11 · x64 only</p>
+          <p class="platform-description">A per-user installer with no administrator setup. Extract the ZIP and run <strong>VeritySetup.exe</strong> if Windows permits it.</p>
+          <a class="button primary download-button" href="https://github.com/VerityLocal/Main/releases/download/v0.2.0-dev.1/Verity-Windows.zip" aria-describedby="windows-status">Download Windows ZIP <span aria-hidden="true">↓</span></a>
+          <p class="download-meta">ZIP · <span data-size="windows">Size in release details</span> · Unsigned</p>
+          <p id="windows-status" class="platform-status">Cross-build and package integrity checked. Not executed on Windows; native ARM64 and 32-bit Windows are unsupported.</p>
+        </article>
+      </div>
+      <div class="release-links"><a href="https://github.com/VerityLocal/Main/releases/tag/v0.2.0-dev.1">Release notes & all assets <span aria-hidden="true">↗</span></a><a href="https://github.com/VerityLocal/Main/releases/download/v0.2.0-dev.1/SHA256SUMS.txt">SHA-256 checksums <span aria-hidden="true">↗</span></a></div>
+      <p class="download-footnote">First setup needs internet: about 1.9 GB of reviewed Desklib/BGE model downloads on supported machines, plus Python, browser and ML dependencies. The Falcon pair adds about 29 GB only on 64 GiB+ machines. Code checkpoint permissions and a production reference corpus remain unresolved. AI percentages require independent calibration. <a href="https://github.com/VerityLocal/Main/blob/main/docs/MODELS.md">Model availability & resource limits</a>. Firefox is experimental; Linux, Safari and mobile are not supported.</p>
+    </section>
+
+    <section class="workflow-section" id="how-it-works" aria-labelledby="workflow-title"><div class="wrap">
+      <p class="eyebrow">LESS SETUP. MORE CONTEXT.</p><h2 id="workflow-title">From download to document.</h2>
+      <div class="steps-grid">
+        <article><span class="step-number">01</span><h3>Install the companion</h3><p>Extract your download and approve installation if permitted by the OS. The runtime and permitted models are set up automatically where hardware allows.</p></article>
+        <article><span class="step-number">02</span><h3>Load the extension</h3><p>In Chrome or Edge, enable Developer mode and choose <strong>Load unpacked</strong>. Select the companion's extension folder, or the <strong>Verity Extension</strong> folder from the separate extension ZIP.</p></article>
+        <article><span class="step-number">03</span><h3>Read, review, export</h3><p>Open a PDF and click Verity. Read the text, opt into web comparison if needed, inspect the evidence, and export your report.</p></article>
+      </div>
+      <p class="workflow-note">Automatic pairing and helper startup/restart. No Python setup, terminal commands, account or token entry for installer users.</p>
+    </div></section>
+
+    <section class="details-section wrap" aria-labelledby="details-title"><div class="details-heading"><p class="eyebrow">CLEAR ABOUT THE LIMITS</p><h2 id="details-title">A signal.<br>Not a verdict.</h2><p>Your judgment stays part of the process.</p></div>
+      <div class="faq">
+        <details><summary>Can I use only the extension ZIP?</summary><p>The same extension ZIP can be loaded on macOS and Windows, but the local companion is still required for PDF extraction and analysis. Install your platform's companion first; the separate ZIP is useful for directly loading or updating the extension. This does not change the existing desktop-companion implementation.</p></details>
+        <details open><summary>Does this preview detect AI writing?</summary><p><strong>AI percentages remain Unavailable until independently calibrated.</strong> Setup downloads hash-pinned Desklib and BGE-small assets where hardware permits. The full Binoculars pair is skipped below 64 GiB RAM and has not been executed on the 16 GiB test Mac. GPTSniffer needs a permitted trained checkpoint; SameCode needs a reviewed production reference corpus. Setup completion is not inference readiness or accuracy. Never use results as authorship proof or for disciplinary decisions.</p></details>
+        <details><summary>Which components are integrated?</summary><p>Docling's native parser extracts PDF text; Playwright retrieves consented public sources. Desklib and Binoculars supply prose features, GPTSniffer's adapter is code-only, SameCode matches reference code, and Sentence Transformers provides semantic similarity. Missing assets and unsupported hardware remain explicit. <a href="https://github.com/VerityLocal/Main/blob/main/docs/MODELS.md">Read actual availability, licenses and pins</a>.</p></details>
+        <details><summary>What leaves my device?</summary><p>Authorship inference stays local when explicitly provisioned. Web source comparison is optional and requires consent: short excerpts go to search services, and public candidate pages are fetched. Acquiring a remote PDF can contact its original site. GitHub receives ordinary hosting/download network metadata.</p></details>
+        <details><summary>What does source overlap mean?</summary><p>Word-weighted matched similarity on checked passages, not proof of copying. Citations, quotations and common phrasing need review. Search coverage is partial; unchecked text and retrieval failures are never treated as original.</p></details>
+        <details><summary>Will every PDF work?</summary><p>Text-bearing PDFs are the priority. Image-only, protected, redirected and complex-layout PDFs may be unsupported. Review extraction order. Current limits are 16 MB, 200 pages and 200,000 text characters.</p></details>
+        <details><summary>Why might the installer be blocked?</summary><p>These are unsigned development artifacts. macOS Gatekeeper or Windows security may prevent execution. Do not bypass or disable security protections; wait for signed builds if installation is blocked. Signing and platform acceptance are still required for a production release.</p></details>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer wrap"><a class="brand" href="./"><img src="icon.svg" width="28" height="28" alt=""><span>Verity</span></a><p>Clarity, without cloud AI inference.</p><nav aria-label="Footer navigation"><a href="https://github.com/VerityLocal/Main/blob/main/docs/SECURITY.md">Privacy</a><a href="https://github.com/VerityLocal/Main/issues">Report an issue</a><a href="https://github.com/VerityLocal">GitHub <span aria-hidden="true">↗</span></a></nav></footer>
+  <script src="downloads.js" defer></script>
+</body>
+</html>
