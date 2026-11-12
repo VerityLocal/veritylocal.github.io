@@ -1,0 +1,29 @@
+{
+  "version": "0.4.0",
+  "assets": [
+    {
+      "name": "Verity-Local-Code-Model-v0.4.0.zip",
+      "bytes": 467267768,
+      "sha256": "b91764502407d37f3e04cd1e6b58c87708700ae815eb60fffca8e9d55b074462",
+      "url": "https://github.com/VerityLocal/Main/releases/download/v0.4.0/Verity-Local-Code-Model-v0.4.0.zip"
+    },
+    {
+      "name": "Verity-Local-Extension-v0.4.0.zip",
+      "bytes": 3046095,
+      "sha256": "f03e71c7ac951d26b8bdf96f967c296e44d8f865d22b08ef39ab1e5b6ecedc1c",
+      "url": "https://github.com/VerityLocal/Main/releases/download/v0.4.0/Verity-Local-Extension-v0.4.0.zip"
+    },
+    {
+      "name": "Verity-Local-Text-Model-v0.4.0.zip",
+      "bytes": 1619230458,
+      "sha256": "774b8ca1806e1278f3cb771e52f6e3c6f2967e3d7321d90f53f60bd242cada85",
+      "url": "https://github.com/VerityLocal/Main/releases/download/v0.4.0/Verity-Local-Text-Model-v0.4.0.zip"
+    },
+    {
+      "name": "Verity-Local-v0.4.0.zip",
+      "bytes": 27555441,
+      "sha256": "6b811e9c90053a5d6b0830bf63a79a1cedf6ce57fa2621894088f5189fe55a46",
+      "url": "https://github.com/VerityLocal/Main/releases/download/v0.4.0/Verity-Local-v0.4.0.zip"
+    }
+  ]
+}

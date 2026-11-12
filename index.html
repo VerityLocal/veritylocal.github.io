@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172f29">
+  <meta name="description" content="Review PDFs and source files with Verity Local. Private, on-device text and code signals, passage-level evidence, and clear document coverage. Download and get set up.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Verity Local — A closer look. Without the cloud.">
+  <meta property="og:description" content="Local PDF and source-file review. Download the Chrome/Edge extension and Python backend, and follow the illustrated setup guide.">
+  <meta property="og:url" content="https://veritylocal.github.io/">
+  <meta property="og:image" content="https://veritylocal.github.io/assets/review-overview.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://veritylocal.github.io/">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+  <title>Verity Local — A closer look. Without the cloud.</title>
+</head>
+<body>
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"/></symbol>
+    <symbol id="i-document" viewBox="0 0 24 24"><path d="M14 3H5v18h14V8l-5-5Zm0 0v5h5M8 12h8m-8 4h6"/></symbol>
+    <symbol id="i-browser" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 9h18M7 6.5h.01m3 0h.01"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m7 6-5 6 5 6m10-12 5 6-5 6M14 3l-4 18"/></symbol>
+    <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 7V4h7l3 3h8v13H3V7Z"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V3H4v13h4"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-4 1-4-2-6-2m12 5v-4c0-1-.2-2-1-2.5 3-.4 6-1.5 6-6.5a5 5 0 0 0-1.5-3.5A5 5 0 0 0 18 2s-1 0-3 1.5a13 13 0 0 0-6 0C7 2 6 2 6 2a5 5 0 0 0-.5 3.5A5 5 0 0 0 4 9c0 5 3 6.1 6 6.5-.8.5-1 1.5-1 2.5v4"/></symbol>
+  </svg>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="brand" href="#"><img src="icon.svg" width="34" height="34" alt=""><span>verity<span class="brand-light"> local</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" aria-label="Toggle navigation"><span></span><span></span></button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#experience">The experience</a><a href="#setup">Setup guide</a><a href="#downloads">Downloads</a>
+        <a class="nav-github" href="https://github.com/VerityLocal/Main">GitHub <svg class="icon"><use href="#i-external"/></svg></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> LOCAL-FIRST DOCUMENT REVIEW</div>
+        <h1>A closer look.<br><em>Without<br class="desktop-break"> the cloud.</em></h1>
+        <p class="hero-description">Review PDFs and source files with signals you can explore, evidence you can follow, and documents that stay on your machine.</p>
+        <div class="button-row"><a class="button button-dark" href="#downloads">Get Verity Local <svg class="icon"><use href="#i-download"/></svg></a><a class="button button-plain" href="#setup">Read the setup guide <svg class="icon"><use href="#i-arrow"/></svg></a></div>
+        <p class="hero-note"><span class="tiny-check">✓</span> Chrome &amp; Edge <span>·</span> Local Python backend <span>·</span> v0.4.0</p>
+      </div>
+      <div class="product-stage">
+        <div class="stage-label"><span class="status-dot"></span> A little more clarity. A lot more privacy.</div>
+        <div class="product-window">
+          <div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>Verity Local / Evidence review</span><svg class="icon"><use href="#i-lock"/></svg></div>
+          <button class="image-button" type="button" data-lightbox="assets/review-overview.webp" aria-label="Enlarge the real Verity Local review screenshot"><img src="assets/review-overview.webp" alt="Verity Local reviewing the public two-page demonstration PDF, with document coverage and separate text and code results" width="1440" height="1000" fetchpriority="high"></button>
+        </div>
+        <div class="popup-float"><div class="popup-float-label">A quick look, right in your browser.</div><img src="assets/popup.webp" alt="Actual Verity Local toolbar popup showing the demonstration results" width="380" height="600"></div>
+        <div class="local-tag"><span class="local-tag-icon"><svg class="icon"><use href="#i-lock"/></svg></span><div><strong>Your files. Your computer.</strong><span>Inference happens locally.</span></div></div>
+        <span class="stage-coordinate" aria-hidden="true">DOCUMENT → EVIDENCE → CONTEXT</span>
+      </div>
+    </section>
+
+    <div class="container capability-strip" aria-label="At a glance"><span><svg class="icon"><use href="#i-lock"/></svg> On-device inference</span><span><svg class="icon"><use href="#i-document"/></svg> PDFs &amp; source files</span><span><svg class="icon"><use href="#i-code"/></svg> Separate text &amp; code signals</span><span><svg class="icon"><use href="#i-browser"/></svg> No account required</span></div>
+
+    <section class="section container" id="experience">
+      <div class="section-heading"><div><p class="eyebrow">01 / THE EXPERIENCE</p><h2>There’s more to a document<br>than a percentage.</h2></div><p>Start with an overview.<br>Then follow the details that matter.</p></div>
+      <div class="feature-grid">
+        <article class="feature"><span class="feature-number">01</span><h3>Know what was read.</h3><p>See processed pages, extracted content, unread images, and exclusions. Missing coverage stays visible.</p></article>
+        <article class="feature"><span class="feature-number">02</span><h3>Go straight to the evidence.</h3><p>Explore analyzed and flagged passages, then jump to their highlighted location in the original PDF or source file.</p></article>
+        <article class="feature"><span class="feature-number">03</span><h3>Keep the context.</h3><p>Text and code get separate summaries. Short or unsupported content is marked “Not scored,” with a reason.</p></article>
+      </div>
+      <div class="tour-grid">
+        <figure class="tour-card evidence-card"><div class="tour-image"><button class="image-button" type="button" data-lightbox="assets/evidence.webp" aria-label="Enlarge the passage evidence screenshot"><img src="assets/evidence.webp" alt="An analyzed passage and its highlighted location in the original demonstration PDF" width="1440" height="1000" loading="lazy"><span class="expand-label"><svg class="icon"><use href="#i-expand"/></svg> Take a closer look</span></button></div><figcaption><span class="caption-label">THE DETAILED VIEW</span><h3>Every signal has a place.</h3><p>Read the passage. Check the original. Make your own assessment.</p></figcaption></figure>
+        <figure class="tour-card quick-card"><div class="tour-image"><button class="image-button" type="button" data-lightbox="assets/popup.webp" aria-label="Enlarge the toolbar popup screenshot"><img src="assets/popup.webp" alt="The compact toolbar popup with separate text and code flag rates" width="380" height="600" loading="lazy"></button></div><figcaption><span class="caption-label">THE QUICK VIEW</span><h3>Small popup. Useful perspective.</h3><p>Start a review, close the popup, and return to the same analysis.</p></figcaption></figure>
+      </div>
+      <p class="screenshot-note">Actual extension screenshots using the included synthetic demo document. Scores illustrate the interface, not accuracy.</p>
+      <div class="signal-note"><span class="note-mark" aria-hidden="true">i</span><p><strong>A signal is a starting point.</strong> Flag rates describe analyzed content, not verified authorship. These detectors can produce false positives; the code detector is an experimental synthetic-style classifier.</p><a href="https://github.com/VerityLocal/Main/blob/main/docs/MODELS.md">How to read results <svg class="icon"><use href="#i-external"/></svg></a></div>
+    </section>
+
+    <section class="local-section">
+      <div class="container local-layout"><div><p class="eyebrow">LOCAL BY DESIGN</p><h2>A short journey<br>for your documents.</h2><p>The extension talks to a Python backend on your own computer. Extraction and model inference happen there.</p></div><div class="local-flow"><div class="flow-item"><svg class="icon"><use href="#i-browser"/></svg><span>Your browser</span><small>Choose a PDF or source file</small></div><span class="flow-arrow" aria-hidden="true">↓</span><div class="flow-item"><svg class="icon"><use href="#i-code"/></svg><span>Your local backend</span><small>Extract · analyze · return evidence</small></div><div class="flow-footer"><svg class="icon"><use href="#i-lock"/></svg><span>Local models. No external inference service.</span></div></div></div>
+    </section>
+
+    <section class="section container" id="downloads">
+      <div class="section-heading"><div><p class="eyebrow">02 / DOWNLOADS</p><h2>Bring the review home.</h2></div><a class="release-pill" href="https://github.com/VerityLocal/Main/releases/tag/v0.4.0"><span class="status-dot"></span> v0.4.0 <span>Developer preview</span><svg class="icon"><use href="#i-external"/></svg></a></div>
+      <p class="section-intro">One project. A browser extension and a local backend working together.<br>Start with the project download, then follow the setup guide below.</p>
+      <div class="download-grid">
+        <article class="download-card recommended"><div class="download-top"><span class="download-icon"><svg class="icon"><use href="#i-folder"/></svg></span><span class="small-pill">START HERE</span></div><h3>Verity Local</h3><p>The complete project: Python backend, ready-to-load extension, source, documentation, and examples.</p><ul class="download-facts"><li><svg class="icon"><use href="#i-check"/></svg> macOS &amp; Linux · Windows via WSL 2</li><li><svg class="icon"><use href="#i-check"/></svg> Built extension included · no Node.js needed</li><li><svg class="icon"><use href="#i-check"/></svg> Model installation command included</li></ul><a class="button button-dark full-width" href="https://github.com/VerityLocal/Main/releases/download/v0.4.0/Verity-Local-v0.4.0.zip">Download project <svg class="icon"><use href="#i-download"/></svg></a><span class="download-size" data-size="Verity-Local-v0.4.0.zip">ZIP · Python setup required</span></article>
+        <article class="download-card"><div class="download-top"><span class="download-icon"><svg class="icon"><use href="#i-browser"/></svg></span><span class="small-pill muted-pill">EXTENSION ONLY</span></div><h3>For Chrome &amp; Edge</h3><p>Just the browser extension. Ideal for an update or a second browser when your backend is already set up.</p><ul class="download-facts"><li><svg class="icon"><use href="#i-check"/></svg> One ZIP for both browsers</li><li><svg class="icon"><use href="#i-check"/></svg> PDF.js, fonts &amp; rendering assets bundled</li><li><svg class="icon"><use href="#i-check"/></svg> Load unpacked using Developer mode</li></ul><a class="button button-outline full-width" href="https://github.com/VerityLocal/Main/releases/download/v0.4.0/Verity-Local-Extension-v0.4.0.zip">Download extension <svg class="icon"><use href="#i-download"/></svg></a><span class="download-size" data-size="Verity-Local-Extension-v0.4.0.zip">ZIP · local backend required</span></article>
+      </div>
+      <div class="model-downloads"><div><h3>The models, made local.</h3><p>The setup command downloads both automatically. Prefer a manual download?</p></div><a class="model-link" href="https://github.com/VerityLocal/Main/releases/download/v0.4.0/Verity-Local-Text-Model-v0.4.0.zip"><span>Text model<small data-size="Verity-Local-Text-Model-v0.4.0.zip">Desklib · ZIP</small></span><svg class="icon"><use href="#i-download"/></svg></a><a class="model-link" href="https://github.com/VerityLocal/Main/releases/download/v0.4.0/Verity-Local-Code-Model-v0.4.0.zip"><span>Code model<small data-size="Verity-Local-Code-Model-v0.4.0.zip">CodeBERT + LoRA · ZIP</small></span><svg class="icon"><use href="#i-download"/></svg></a></div>
+      <div class="download-bottom"><span>Models: ~2.1 GiB uncompressed. Each inference artifact is SHA-256 verified.</span><a href="https://github.com/VerityLocal/Main/releases/download/v0.4.0/SHA256SUMS.txt">Checksums <svg class="icon"><use href="#i-external"/></svg></a><a href="https://github.com/VerityLocal/Main/releases/tag/v0.4.0">Release notes <svg class="icon"><use href="#i-external"/></svg></a></div>
+    </section>
+
+    <section class="setup-section" id="setup">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">03 / GET SET UP</p><h2>Your first review starts here.</h2></div><a class="text-link" href="https://github.com/VerityLocal/Main/blob/main/docs/SETUP.md">Full documentation <svg class="icon"><use href="#i-external"/></svg></a></div>
+        <p class="section-intro">A one-time setup for the extension, backend, and models.<br>After that, start the backend whenever you want to review.</p>
+        <div class="setup-layout">
+          <ol class="setup-steps">
+            <li class="setup-step"><span class="step-number">1</span><div class="step-content"><h3>Download and open the project.</h3><p><a href="https://github.com/VerityLocal/Main/releases/download/v0.4.0/Verity-Local-v0.4.0.zip">Download the project ZIP</a>, extract it, and open a terminal in the <code>verity-local</code> folder. The built extension is inside <code>extension/</code>.</p><p class="fine-print">Windows: run the backend steps in Ubuntu on WSL 2. Load the separate extension ZIP from a Windows folder.</p></div></li>
+            <li class="setup-step"><span class="step-number">2</span><div class="step-content"><h3>Install Python dependencies and models.</h3><p>Use Python 3.11 or newer. These commands create an isolated environment and download the pinned models.</p>
+              <div class="os-tabs" role="tablist" aria-label="Setup operating system"><button type="button" id="tab-macos" role="tab" aria-selected="true" aria-controls="panel-macos" tabindex="0">macOS</button><button type="button" id="tab-linux" role="tab" aria-selected="false" aria-controls="panel-linux" tabindex="-1">Linux</button><button type="button" id="tab-windows" role="tab" aria-selected="false" aria-controls="panel-windows" tabindex="-1">Windows / WSL 2</button></div>
+              <div class="os-panel" id="panel-macos" role="tabpanel" aria-labelledby="tab-macos" tabindex="0"><p class="panel-help">Install <a href="https://www.python.org/downloads/macos/">Python 3.11+</a> if needed. In Terminal, inside the project folder:</p><div class="code-block"><div class="code-header"><span>TERMINAL</span><button class="copy-button" type="button" aria-label="Copy macOS setup commands"><svg class="icon"><use href="#i-copy"/></svg><span>Copy</span></button></div><pre><code>python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m backend.scripts.download_models</code></pre></div></div>
+              <div class="os-panel" id="panel-linux" role="tabpanel" aria-labelledby="tab-linux" tabindex="0" hidden><p class="panel-help">On Ubuntu/Debian, install <code>python3-venv</code> if needed. Check <code>python3 --version</code> is 3.11+.</p><div class="code-block"><div class="code-header"><span>TERMINAL · UBUNTU / DEBIAN</span><button class="copy-button" type="button" aria-label="Copy Linux setup commands"><svg class="icon"><use href="#i-copy"/></svg><span>Copy</span></button></div><pre><code>sudo apt update
+sudo apt install python3 python3-venv python3-pip
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install torch==2.13.0 --index-url https://download.pytorch.org/whl/cpu
+python -m pip install -r requirements.txt
+python -m backend.scripts.download_models</code></pre></div></div>
+              <div class="os-panel" id="panel-windows" role="tabpanel" aria-labelledby="tab-windows" tabindex="0" hidden><p class="panel-help">First <a href="https://learn.microsoft.com/windows/wsl/install">install WSL 2 + Ubuntu</a>. Open Ubuntu, place the project in your Linux home folder, then run:</p><div class="code-block"><div class="code-header"><span>UBUNTU TERMINAL · WSL 2</span><button class="copy-button" type="button" aria-label="Copy Windows WSL setup commands"><svg class="icon"><use href="#i-copy"/></svg><span>Copy</span></button></div><pre><code>sudo apt update
+sudo apt install python3 python3-venv python3-pip
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install torch==2.13.0 --index-url https://download.pytorch.org/whl/cpu
+python -m pip install -r requirements.txt
+python -m backend.scripts.download_models</code></pre></div><p class="panel-help">Keep Chrome/Edge on Windows. The backend uses WSL’s localhost forwarding; native Windows Python is not supported.</p></div>
+              <p class="fine-print">Already downloaded the model ZIPs? Use <code>python -m backend.scripts.download_models --from-dir ~/Downloads</code> instead.</p>
+            </div></li>
+            <li class="setup-step"><span class="step-number">3</span><div class="step-content"><h3>Add Verity Local to your browser.</h3><p>Open <code>chrome://extensions</code> or <code>edge://extensions</code>. Enable <strong>Developer mode</strong>, click <strong>Load unpacked</strong>, and select the extracted <code>extension/</code> folder. Copy the ID on the Verity Local card.</p><figure class="setup-screenshot"><button class="image-button" type="button" data-lightbox="assets/install-extension.webp" aria-label="Enlarge the extension installation screenshot"><img src="assets/install-extension.webp" alt="Chrome extensions page showing Developer mode, Load unpacked, and the Verity Local extension card with its ID" width="1440" height="700" loading="lazy"></button><figcaption>Your extension ID will be different. Copy the one in your browser.</figcaption></figure><details class="inline-details"><summary>Building from a Git clone?</summary><p>With Node.js 22.13+ installed, run these commands from the project root before loading the extension:</p><div class="code-block"><div class="code-header"><span>TERMINAL</span><button class="copy-button" type="button" aria-label="Copy extension build commands"><svg class="icon"><use href="#i-copy"/></svg><span>Copy</span></button></div><pre><code>cd extension
+npm ci --ignore-scripts
+npm run build
+cd ..</code></pre></div></details></div></li>
+            <li class="setup-step"><span class="step-number">4</span><div class="step-content"><h3>Start the local backend.</h3><p>With the virtual environment active, replace <code>YOUR_EXTENSION_ID</code> below with the ID you copied. Leave this terminal running.</p><div class="code-block"><div class="code-header"><span>TERMINAL · PROJECT ROOT</span><button class="copy-button" type="button" aria-label="Copy backend startup command"><svg class="icon"><use href="#i-copy"/></svg><span>Copy</span></button></div><pre><code>python -B -m backend.scripts.run_local \
+  --extension-id YOUR_EXTENSION_ID</code></pre></div><p class="fine-print">Wait for the models to load and application startup to complete. The address is <code>http://127.0.0.1:8000</code>. Stop the backend with Ctrl+C.</p></div></li>
+            <li class="setup-step"><span class="step-number">5</span><div class="step-content"><h3>Connect once. Then you’re ready.</h3><p>Click the gear in Verity Local. Keep the backend address as <code>http://127.0.0.1:8000</code> and paste the contents of <code>.local/backend-token</code> into <strong>Local bearer token</strong>. Click <strong>Save and test connection</strong>.</p><div class="token-commands"><span>Copy your token in a second terminal, from the project folder:</span><dl><div><dt>macOS</dt><dd><code>pbcopy &lt; .local/backend-token</code></dd></div><div><dt>Linux</dt><dd><code>cat .local/backend-token</code></dd></div><div><dt>WSL</dt><dd><code>clip.exe &lt; .local/backend-token</code></dd></div></dl></div><figure class="setup-screenshot settings-screenshot"><button class="image-button" type="button" data-lightbox="assets/settings.webp" aria-label="Enlarge the connected Settings screenshot"><img src="assets/settings.webp" alt="Verity Local Settings with a loopback backend address, masked bearer token, and Connected. Backend ready. status" width="900" height="700" loading="lazy"></button><figcaption>Look for “Connected. Backend ready.”</figcaption></figure></div></li>
+            <li class="setup-step last-step"><span class="step-number"><svg class="icon"><use href="#i-check"/></svg></span><div class="step-content"><h3>Take it for a first review.</h3><p>Open a PDF and click Verity Local. Or use <strong>Choose PDF instead</strong> to select a file. Open detailed results to explore the evidence.</p><a class="button button-outline" href="assets/verity-local-demo.pdf" download>Try the demo PDF <svg class="icon"><use href="#i-download"/></svg></a><p class="fine-print">Two pages of synthetic prose and Python code. A simple way to explore the interface.</p></div></li>
+          </ol>
+          <aside class="setup-aside"><div class="requirements-card"><span class="caption-label">BEFORE YOU START</span><h3>A small checklist.</h3><ul><li><svg class="icon"><use href="#i-check"/></svg><span><strong>Chrome or Edge</strong><small>Chrome 116+ or compatible Edge</small></span></li><li><svg class="icon"><use href="#i-check"/></svg><span><strong>Python 3.11+</strong><small>macOS / Linux / Windows with WSL 2</small></span></li><li><svg class="icon"><use href="#i-check"/></svg><span><strong>Room for local models</strong><small>Plan for 8 GB free storage; 16 GB RAM recommended</small></span></li><li><svg class="icon"><use href="#i-check"/></svg><span><strong>Internet for first setup</strong><small>Then inference can run offline</small></span></li></ul><p>Tested locally on Apple Silicon macOS with CPU inference.</p></div><div class="help-card"><h3>A little stuck?</h3><p>The guide covers connection errors, missing models, permissions, and optional OCR.</p><a href="#faq">Find an answer <svg class="icon"><use href="#i-arrow"/></svg></a></div></aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container faq-section" id="faq"><div><p class="eyebrow">04 / GOOD TO KNOW</p><h2>A little context<br>goes a long way.</h2><a class="text-link" href="https://github.com/VerityLocal/Main/issues">Ask on GitHub <svg class="icon"><use href="#i-external"/></svg></a></div><div class="faq-list">
+      <details><summary>What do the percentages actually mean?</summary><p>They show the share of analyzed content flagged by each detector at the selected threshold, separately for text and code. They are not the probability that a person used AI. The models can produce false positives, and neither is validated for university submissions. <a href="https://github.com/VerityLocal/Main/blob/main/docs/MODELS.md">Read the model notes.</a></p></details>
+      <details><summary>Do my documents leave my computer?</summary><p>Analysis sends the document from the extension to your local, authenticated backend. Extraction and inference stay on that machine. Results are held in memory and expire; parser files are temporary. Downloading a remote PDF still contacts its hosting website. This site has no analytics scripts or upload form.</p></details>
+      <details><summary>Does the extension work on its own?</summary><p>The extension is the review interface; the Python backend runs the models. You need both, plus the model files. Start the backend whenever you use the extension. The full project ZIP includes the backend and built extension; the model setup command obtains the weights.</p></details>
+      <details><summary>Why can’t the extension connect?</summary><p>Make sure the backend terminal is running and model startup has finished. Check the address is <code>http://127.0.0.1:8000</code>, the token matches <code>.local/backend-token</code>, and the launch command uses your actual extension ID. HTTP 401 usually means a token mismatch; 403 usually means the extension ID/origin does not match. <a href="https://github.com/VerityLocal/Main/blob/main/docs/SETUP.md#troubleshooting">Full troubleshooting.</a></p></details>
+      <details><summary>What if a PDF won’t open or capture?</summary><p>Choose <strong>Choose PDF instead</strong> for a direct file upload. Protected, embedded, or login-based viewers may not expose PDF bytes. Local file URLs may need “Allow access to file URLs” in extension details. Manual uploads support up to 50 MiB and 500 pages; direct browser-tab capture supports up to 8 MiB.</p></details>
+      <details><summary>Can it read scans and source code?</summary><p>Native text PDFs work with the default parser. Scanned regions need optional local Tesseract OCR and English language data. OCR code is displayed but withheld by default. Manual review accepts Python, JavaScript, and UTF-8 text files; unsupported or insufficient content is marked “Not scored.” <a href="https://github.com/VerityLocal/Main/blob/main/backend/DEPENDENCIES.md">Set up optional OCR.</a></p></details>
+      <details><summary>How do I update or start again tomorrow?</summary><p>Download the matching release, reload the unpacked extension from its extensions card, and restart the backend. Reuse verified model files with the same hashes. For daily use, activate <code>.venv</code> and run the backend launch command with your extension ID. Settings and the local token persist; analysis results do not persist across restarts.</p></details>
+    </div></section>
+
+    <section class="closing container"><img src="icon.svg" width="48" height="48" alt=""><h2>A clearer view.<br>A local beginning.</h2><a class="button button-dark" href="#downloads">Get Verity Local <svg class="icon"><use href="#i-arrow"/></svg></a></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-top"><a class="brand" href="#"><img src="icon.svg" width="32" height="32" alt=""><span>verity<span class="brand-light"> local</span></span></a><p>Clarity, without the cloud.</p><div><a href="https://github.com/VerityLocal/Main">Project</a><a href="https://github.com/VerityLocal/Main/blob/main/docs/SETUP.md">Documentation</a><a href="https://github.com/VerityLocal/veritylocal.github.io">Website source</a></div></div><div class="container footer-bottom"><span>Verity Local · v0.4.0 developer preview</span><span>Made for a more thoughtful review.</span></div></footer>
+
+  <dialog class="lightbox" aria-labelledby="lightbox-title"><div class="lightbox-header"><p id="lightbox-title">Verity Local screenshot</p><button class="lightbox-close" type="button" aria-label="Close screenshot">×</button></div><img alt=""></dialog>
+  <p class="sr-only" id="copy-status" role="status" aria-live="polite"></p>
+</body>
+</html>
